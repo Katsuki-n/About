@@ -1,0 +1,84 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    color:#333333;
+}
+
+.container{
+    margin:0 auto;
+    max-width:900px;
+}
+
+header{
+    padding-top:20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.head{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:5px;
+    padding-left: 15px;
+}
+
+.head a{
+    text-decoration: none;
+}
+
+.aicon{
+    background-image:url("img/service3.jpg");
+    background-size: 65px;
+}
+
+.twitter,.instagram{
+    width:25px;
+    padding:0 10px;
+}
+
+.head-img{
+    width:100%;
+    margin-top: 150px;
+}
+
+main{
+    margin-top: 100px;
+    padding-bottom:30px;
+}
+
+h1{
+    margin: 50px 30px;
+}
+
+.main-0{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-1{
+    width: 40%;
+}
+
+.main-1 p{
+    width: 100%;
+}
+
+.main-1 img{
+    width: 100%;
+    margin-top: 100px;
+}
+
+footer{
+    height:80px;
+    line-height:80px;
+    border-top:1px dashed gray;
+}
+
+footer p{
+    font-size:12px;
+    text-align: center;
+}
