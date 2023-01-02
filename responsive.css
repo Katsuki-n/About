@@ -1,0 +1,49 @@
+@media screen and (max-width:896px){
+    .logo{
+        padding-left:20px;
+    }
+
+    .main-0{
+        flex-wrap: wrap;
+    }
+
+    footer{
+        padding:0 20px;
+    }
+}
+
+@media screen and (max-width:480px){
+    header{
+        padding-top:40px;
+    }
+
+    .logo{
+        width:150px;
+    }
+    
+    .twitter,.instagram{
+        width:15px;
+        padding:0 5px;
+    }
+
+    .head{
+        padding-bottom:30px;
+    }
+
+    .main-0{
+        flex-wrap: wrap;
+        
+    }
+
+    .main-1{
+        width: 80%;
+    }
+
+    footer{
+        line-height:40px;
+    }
+
+    footer p{
+        text-align:center;
+    }
+}
